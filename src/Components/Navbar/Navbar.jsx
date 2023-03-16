@@ -22,7 +22,7 @@ function Navbar() {
 
         <div className="col-12 col-lg-4 d-flex justify-content-center order-3 order-lg-2">
           <h4 className="text-white">
-            <SiGooglemaps />
+            <SiGooglemaps />&nbsp;
             {data === undefined ? 'Localizacion' : data.location.name}
           </h4>
         </div>
