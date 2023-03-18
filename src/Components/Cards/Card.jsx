@@ -7,7 +7,7 @@ function Card() {
   return (
     <div className="d-flex justify-content-center mt-3 mt-lg-4 py-lg-3">
       <div className="card rounded-4 mt-lg-3" id="card-container">
-        <div className="card-body">
+        <div className="card-body  shadow-lg">
           <h1 className="card-title text-center">
             {data === undefined ? 0 : data.current.temp_c}
             <span className="mt-2 fs-3 position-fixed">&nbsp;°C</span>
@@ -15,7 +15,7 @@ function Card() {
           <div className="row g-0">
             <div className="col-12 d-flex justify-content-center mt-1">
               {data === undefined ? (
-                <div className="spinner-border text-light" role="status">
+                <div className="spinner-border text-light mt-4" role="status">
                   <span className="visually-hidden">Loading...</span>
                 </div>
               ) : (
