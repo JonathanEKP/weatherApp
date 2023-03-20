@@ -18,7 +18,7 @@ function Day() {
       {data === undefined ? (
         ""
       ) : (
-        <div className="mx-auto date-container rounded-3 mt-lg-4 mt-3 ">
+        <div className="mx-auto date-container rounded-3 mt-lg-1 mt-2 ">
           <div className="shadow-lg">
             <div className="row g-0 ">
               <div className="col-12 d-flex justify-content-center" id="col-1">

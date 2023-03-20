@@ -18,3 +18,46 @@
 .condition-icon{
     width: 8rem;
 }
+
+
+.weather-details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-details .humidity, .weather-details .wind{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+}
+
+.weather-details .humidity{
+    padding-left: 20px;
+    justify-content: flex-start;
+}
+
+.weather-details .wind{
+    padding-right: 20px;
+    justify-content: flex-end;
+}
+
+.weather-details .icons{
+    color: #06283d;
+    font-size: 26px;
+    margin-top: -5px;
+    margin-right: 2px;
+}
+
+.weather-details span{
+    color: #06283d;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.weather-details p{
+    color: #06283d;
+    font-size: 13px;
+    font-weight: 500;
+}

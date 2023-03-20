@@ -14,7 +14,7 @@ function Navbar() {
   }
 
   return (
-    <nav className="container mt-5">
+    <nav className="container mt-lg-5 mt-2">
       <div className="row g-0 gap-4 gap-lg-0">
         <div className="col-12 col-lg-4 d-flex justify-content-center justify-content-lg-start order-1 ">
           <h3 className="text-uppercase text-white fw-light">Weather</h3>
