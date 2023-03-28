@@ -1,70 +1,79 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Weather App
 
-## Available Scripts
+Este proyecto está hecho con React usando create-react-app, JavaScript, HTML, CSS y Bootstrap.
 
-In the project directory, you can run:
+El proyecto pide al usuario el nombre de una ciudad para buscarla usando la API de https://www.weatherapi.com/ y mostrar la información del clima en tiempo real.
 
-### `npm start`
+El diseño de la web está basado en el siguiente enlace: https://dribbble.com/shots/17998454-Weather-website
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Autores
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [@JonathanEKP](https://www.github.com/JonathanEKP)
 
-### `npm run build`
+## Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Client:** 
+[![Bootstrap](./src/Assets/Icons/bootstrap.svg)](https://getbootstrap.com/)
+[![React](./src/Assets/Icons/react.svg)](https://react.dev/)
+[![create-react-app](./src/Assets/Icons/react.svg)](https://create-react-app.dev/)
+[![JavaScript](./src/Assets/Icons/js.svg)](https://developer.mozilla.org/es/docs/Web/JavaScript)
+[![HTML](./src/Assets/Icons/html.svg)](https://developer.mozilla.org/es/docs/Web/HTML)
+[![CSS](./src/Assets/Icons/css.svg)](https://developer.mozilla.org/es/docs/Web/CSS)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Referencias de colores
 
-### `npm run eject`
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Blue Background | ![#3A078A](https://via.placeholder.com/10/3A078A?text=+) #3A078A |
+| Sky Blue Card | ![#3B7ED9](https://via.placeholder.com/10/3B7ED9?text=+) #3B7ED9 |
+| Lilac Date Card | ![#6C588D](https://via.placeholder.com/10/6C588D?text=+) #6C588D |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Despliegue
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Para poder correr el proyecto puede usar el siguiente enlace publicado en github pages:
+- https://jonathanekp.github.io/weatherApp/
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+O puede descargar el proyecto y correrlo localmente en su maquina con los siguientes pasos:
 
-## Learn More
+### Clone el repositorio
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+  git clone https://github.com/JonathanEKP/weatherApp
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Vaya a la ubicación del proyecto
 
-### Code Splitting
+```bash
+  cd weatherApp
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Instale las dependencias necesarias
 
-### Analyzing the Bundle Size
+```bash
+  npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Inicie el servidor
 
-### Making a Progressive Web App
+```bash
+  npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Screenshots
 
-### Deployment
+### Estado de los componentes al iniciar la web
+![App Screenshot start](./src/Assets/images/busqueda.PNG)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Estado de los componentes cuando se hizo una busqueda con exito
+![App Screenshot busqueda](./src/Assets/images/inicio.PNG)
 
-### `npm run build` fails to minify
+## Feedback
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Si tienes alguna sugerencia, por favor hazmela saber a mi correo jonathanvaldez2001@gmail.com
