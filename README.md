@@ -16,12 +16,13 @@ El diseño de la web está basado en el siguiente enlace: https://dribbble.com/s
 ## Tech Stack
 
 **Client:** 
-[![Bootstrap](./src/Assets/Icons/bootstrap.svg)](https://getbootstrap.com/)
-[![React](./src/Assets/Icons/react.svg)](https://react.dev/)
-[![create-react-app](./src/Assets/Icons/react.svg)](https://create-react-app.dev/)
-[![JavaScript](./src/Assets/Icons/js.svg)](https://developer.mozilla.org/es/docs/Web/JavaScript)
-[![HTML](./src/Assets/Icons/html.svg)](https://developer.mozilla.org/es/docs/Web/HTML)
-[![CSS](./src/Assets/Icons/css.svg)](https://developer.mozilla.org/es/docs/Web/CSS)
+- Bootstrap
+- React
+- create-react-app
+- JavaScript
+- HTML
+- CSS
+
 
 
 ## Referencias de colores
@@ -69,10 +70,10 @@ O puede descargar el proyecto y correrlo localmente en su maquina con los siguie
 ## Screenshots
 
 ### Estado de los componentes al iniciar la web
-![App Screenshot start](./src/Assets/images/busqueda.PNG)
+![App Screenshot start](./src/Assets/images/inicio.PNG)
 
 ### Estado de los componentes cuando se hizo una busqueda con exito
-![App Screenshot busqueda](./src/Assets/images/inicio.PNG)
+![App Screenshot busqueda](./src/Assets/images/busqueda.PNG)
 
 ## Feedback
 
